@@ -1,27 +1,28 @@
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>python --version
+Install python (3.10-3.13)
+
+Intall Langgraph 
+[pip install langgraph](https://pypi.org/project/langgraph/)
+
+
+```bash 
+python --version
 Python 3.14.2
 
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>where python
-C:\Users\Anatolii Maltsev\AppData\Local\Python\bin\python.exe
-
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>py --list
+py --list
  -V:3.14[-64] *   Python 3.14.2
  -V:3.12[-64]     Python 3.12.10
 
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>py -3.12 --version
+py -3.12 --version
 Python 3.12.10
 
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>py -3.12 -m venv venv
+py -3.12 -m venv venv
 
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>venv\Scripts\activate
+venv\Scripts\activate
 
-(venv) C:\Users\Anatolii Maltsev\Documents\AGENTIC>python --version
+python --version
 Python 3.12.10
 
-(venv) C:\Users\Anatolii Maltsev\Documents\AGENTIC>deactivate
-C:\Users\Anatolii Maltsev\Documents\AGENTIC>rmdir /s /q venv
+deactivate
 
-pip install langgraph
-
-
-![alt text](basic_flow.png)
+rmdir /s /q venv
+```
