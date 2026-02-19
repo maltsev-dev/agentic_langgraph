@@ -2,6 +2,8 @@ Install python (3.10-3.13)
 
 Intall Langgraph 
 [pip install langgraph](https://pypi.org/project/langgraph/)
+[pip install langchain-openai](https://pypi.org/project/langchain-openai/)
+
 
 
 ```bash 
