@@ -3,6 +3,9 @@ Install python (3.10-3.13)
 Intall Langgraph 
 [pip install langgraph](https://pypi.org/project/langgraph/)
 [pip install langchain-openai](https://pypi.org/project/langchain-openai/)
+[pip install langgraph-checkpoint-sqlite](https://pypi.org/project/langgraph-checkpoint-sqlite/)
+[pip install langchain-community](https://pypi.org/project/langchain-community/)
+[pip install langchain-chroma](https://pypi.org/project/langchain-chroma/)
 
 
 
