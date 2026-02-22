@@ -1,33 +1,63 @@
-Install python (3.10-3.13)
+# 🚀 LangGraph Playground
 
-Intall Langgraph 
-[pip install langgraph](https://pypi.org/project/langgraph/)
-[pip install langchain-openai](https://pypi.org/project/langchain-openai/)
-[pip install langgraph-checkpoint-sqlite](https://pypi.org/project/langgraph-checkpoint-sqlite/)
-[pip install langchain-community](https://pypi.org/project/langchain-community/)
-[pip install langchain-chroma](https://pypi.org/project/langchain-chroma/)
+A collection of Jupyter notebooks exploring **LangGraph** — from basic state graphs to more advanced agentic workflows.
 
+---
 
+## 📦 Setup
 
-```bash 
-python --version
-Python 3.14.2
+This project uses `uv` for dependency management:
 
-py --list
- -V:3.14[-64] *   Python 3.14.2
- -V:3.12[-64]     Python 3.12.10
-
-py -3.12 --version
-Python 3.12.10
-
-py -3.12 -m venv venv
-
-venv\Scripts\activate
-
-python --version
-Python 3.12.10
-
-deactivate
-
-rmdir /s /q venv
+```bash
+uv sync
 ```
+
+Run Jupyter:
+
+```bash
+uv run jupyter notebook
+```
+
+---
+
+## 📘 Concepts & Notes
+
+Core concepts and explanations are documented in: notes.ipynb
+
+It covers:
+
+* State & TypedDict
+* Nodes & Edges
+* Conditional routing
+* Tool calling
+* Agent patterns
+* Memory & checkpointing
+* RAG graphs
+* Agentic workflows
+
+Start there if you're new to LangGraph.
+
+---
+
+## 📂 Repository Structure
+
+The repository mainly contains `.ipynb` files of varying complexity:
+
+* **Basic graphs** – linear flows and minimal state examples
+* **Conditional graphs** – branching logic and tool integration
+* **Advanced workflows** – agentic systems and RAG-based graphs
+
+Each notebook can be run independently.
+
+---
+
+## 🎯 Purpose
+
+This is a hands-on sandbox for understanding:
+
+* Graph-based LLM orchestration
+* Stateful AI workflows
+* Controlled agent execution
+* Scalable agent architectures
+
+Focus: engineering clarity over LLM “magic”.
